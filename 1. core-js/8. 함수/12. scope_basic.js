@@ -7,7 +7,7 @@ function foo() {
 }
 
 console.log(x);
-
+// console.log(y);
 console.log('======================');
 
 //함수 바깥쪽에서 선언된 변수는 전역 변수

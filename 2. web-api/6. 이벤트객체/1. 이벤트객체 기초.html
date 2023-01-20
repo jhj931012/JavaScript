@@ -14,7 +14,8 @@
     <script>
 
         document.onclick = function(e) {
-            console.log(e);
+            // const {x, y} = e;
+            // console.log(e);
             const $msg = document.querySelector('.msg');
             $msg.textContent = `x: ${e.x}, y: ${e.y}`;
         };

@@ -50,10 +50,12 @@ console.log(c.increase()); // 2
 const counter = (function() {
     let num = 0;
 
-    function def(callback) {
-        return callback(num);
-    }
-    return def;
+    // function def(callback) {
+    //     return callback(num);
+    // }
+
+
+    return (callback) => callback(num);
 })();
 
 
